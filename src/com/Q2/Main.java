@@ -31,20 +31,14 @@ public class Main {
 		
 		
 		
-//			Predicate<Student> p = new Pre();
-//			boolean out= p.test(new Student(2,"Sumit",700));
+
 
 		Predicate<Student> pr = i->i.getMarks()<500;
 		
 			for(Student s: list) {
 				System.out.println(pr.test(s));
 			}
-			 
-			
-//			test.
-//			boolean test =  Pre :: test();
-//			System.out.println(out);
-			
+
 			Consumer<Student> c = new Consu();
 			 c.accept(new Student(2,"Sumit",700));
 			
